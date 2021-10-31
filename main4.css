@@ -1,0 +1,14 @@
+.fg{
+    float: left;
+    margin: 7px 7px 7px 0;
+
+}
+div{
+    font-family: 'Exo 2', sans-serif;
+}
+p{
+    color: rgb(9, 8, 27);
+}
+body{
+    background-color: cornsilk;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(208, 236, 236);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(64, 115, 255);
+    max-width: 1080px;
+    justify-content: center;
+    -webkit-box-shadow: -7px 7px 35px 8px rgba(3, 62, 202, 0.21) inset;
+    -moz-box-shadow: -7px 7px 35px 8px rgba(3, 62, 202, 0.21) inset;
+    box-shadow: -7px 7px 35px 8px rgba(3, 62, 202, 0.21) inset;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    margin: 10;
+    background-color: rgb(228, 160, 34);
+    -webkit-box-shadow: 21px 24px 5px -5px rgba(221, 182, 64, 0.78);
+    -moz-box-shadow: 21px 24px 5px -5px rgba(221, 182, 64, 0.78);
+    box-shadow: 21px 24px 5px -5px rgba(221, 182, 64, 0.78);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+}
+img{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
